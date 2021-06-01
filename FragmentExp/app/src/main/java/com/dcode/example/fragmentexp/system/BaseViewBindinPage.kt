@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 
-open class BaseDataBindinPage<T : ViewDataBinding>(contentViewId: Int) : BasePage(contentViewId) {
+open class BaseViewBindinPage<T : ViewBinding>(contentViewId: Int) : BasePage(contentViewId) {
 
     protected lateinit var binding: T
 
