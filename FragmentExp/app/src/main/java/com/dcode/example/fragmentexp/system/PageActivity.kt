@@ -18,6 +18,11 @@ open class PageActivity : AppCompatActivity(), Navigatable {
             layoutParams = FrameLayout.LayoutParams(MATCH_PARENT, MATCH_PARENT)
             setBackgroundColor(Color.BLACK)
         })
+
+        viewDidLoad()
+    }
+
+    open fun viewDidLoad() {
     }
 
     /** Navigatable **/

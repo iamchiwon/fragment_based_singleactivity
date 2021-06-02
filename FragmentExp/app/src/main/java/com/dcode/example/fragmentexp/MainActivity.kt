@@ -5,8 +5,9 @@ import com.dcode.example.fragmentexp.system.NavigationPage
 import com.dcode.example.fragmentexp.system.PageActivity
 
 class MainActivity : PageActivity() {
-    override fun onStart() {
-        super.onStart()
+
+    override fun viewDidLoad() {
+        super.viewDidLoad()
 
         // START PAGE
         pushPage(NavigationPage(SplashPage()))
